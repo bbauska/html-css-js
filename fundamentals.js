@@ -1,4 +1,9 @@
 /* 
+THIS IS A MULTLINE COMMENT
+ */
+
+//  THIS IS A SINGLE LINE COMMENT
+/* 
 
 This file  contains an introduction into the fundamentals of Javascript.
 It is broken down into modular sections preceeded by module title in CAPS, 
