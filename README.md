@@ -12,11 +12,11 @@ A fundamentals introduction into HTML5, CSS3 and JS
 ## Resources
 ### Web 
 - [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-- [ES6]https://www.javascripttutorial.net/es6/
+- [ES6](https://www.javascripttutorial.net/es6/)
 - [MDN](https://developer.mozilla.org/en-US/docs/Learn)
 - [Interneting is hard](https://www.internetingishard.com/)
 
 ### Books
 - [EloquentJS](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
-
+- [HTML % CSS](https://wtf.tw/ref/duckett.pdf)
 
