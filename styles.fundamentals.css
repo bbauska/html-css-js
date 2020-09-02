@@ -27,3 +27,31 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 RESPONSIVE WEB DESIGN
 https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/
 */
+
+.container{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+    gap: 1rem;
+    grid-template-rows: 2fr auto 2fr;
+    grid-template-columns: 2fr 2fr auto 2fr 2fr;
+    grid-template-areas: 
+    "header header header header"
+    "nav-left content nav-right"
+    "footer footer footer footer";
+}
+
+.header{
+    grid-area: header;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.content{
+    grid-area: content;
+}
+
