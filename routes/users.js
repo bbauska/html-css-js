@@ -4,7 +4,7 @@ var db = require("../database");
 const path = require("path");
 
 router.get("/", function (req, res, next) {
-  res.sendFile(path.join(__dirname, "../", "views", "index.fundamentals.html"));
+  res.render("index");
 });
 
 router.post("/create", function (req, res, next) {
@@ -17,7 +17,15 @@ router.post("/create", function (req, res, next) {
     if (err) throw err;
     console.log("record inserted");
   });
-  res.redirect("/user");
+  res.redirect("/user/user-list");
+});
+
+router.get("/user-list", function (req, res, next) {
+  var sql = "SELECT * FROM users";
+  db.query(sql, function (err, data, fields) {
+    if (err) throw err;
+    res.render("userTable", { userData: data });
+  });
 });
 
 module.exports = router;
