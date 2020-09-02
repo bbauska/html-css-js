@@ -36,7 +36,7 @@ https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-gri
     align-content: stretch;
     gap: 1rem;  
     grid-template-rows: 2fr auto 2fr;
-    grid-template-columns: 2fr 2fr auto 2fr 2fr;
+    grid-template-columns: 2fr auto 2fr;
     grid-template-areas: 
     "header header header header"
     "nav-left content nav-right"
