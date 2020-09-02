@@ -18,7 +18,7 @@ A fundamentals introduction into HTML5, CSS3 and JS
 
 ### Books
 - [EloquentJS](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
-- [HTML % CSS](https://wtf.tw/ref/duckett.pdf)
+- [HTML & CSS](https://wtf.tw/ref/duckett.pdf)
 
 ## Development Environment Setup
 - [Development Environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
