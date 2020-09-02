@@ -1,0 +1,27 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "Web Development Fundamentals",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makavura/html-css-js.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Makavura Mughanga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Makavura/html-css-js/issues"
+  },
+  "homepage": "https://github.com/Makavura/html-css-js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+  }
+}
