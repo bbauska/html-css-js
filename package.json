@@ -4,7 +4,7 @@
   "description": "Web Development Fundamentals",
   "main": "script.js",
   "scripts": {
-    "start": "node script.js"
+    "start": "node ./script.js"
   },
   "repository": {
     "type": "git",
