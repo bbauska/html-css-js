@@ -11,7 +11,7 @@ npm install http-server --save --g
 npm install express --save
 */
 
-const express =  require("express");
+const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -41,6 +41,9 @@ app.get('/submissions/:id', (res) => {
 
 app.post('/submission', (req, res) => {
     submissions.push(req.body);
-    res.json(submissions[submissions.length -1]);
+    res.json(submissions[submissions.length - 1]);
 })
 
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`)
+})
